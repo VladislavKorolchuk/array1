@@ -14,21 +14,21 @@ public class Main {
                 System.out.print(", ");
             }
         }
-        System.out.println("");
+        System.out.println();
         for (int i=0;i< array2.length; i++){
             System.out.print(array2[i]);
             if (i<array2.length-1) {
                 System.out.print(", ");
             }
         }
-        System.out.println("");
+        System.out.println();
         for (int i=0;i< array3.length; i++){
             System.out.print(array3[i]);
             if (i<array3.length-1) {
                 System.out.print(", ");
             }
         }
-        System.out.println("");
+        System.out.println();
         // Задача 3
         for (int i=array1.length-1;i>= 0; i--){
             System.out.print(array1[i]);
@@ -36,21 +36,21 @@ public class Main {
                 System.out.print(", ");
             }
         }
-        System.out.println("");
+        System.out.println();
         for (int i=array2.length-1;i>= 0; i--){
             System.out.print(array2[i]);
             if (i!=0) {
                 System.out.print(", ");
             }
         }
-        System.out.println("");
+        System.out.println();
         for (int i=array3.length-1;i>= 0; i--){
             System.out.print(array3[i]);
             if (i!=0) {
                 System.out.print(", ");
             }
         }
-        System.out.println("");
+        System.out.println();
         // Задача 4
         for (int i=0;i< array1.length; i++){
             if (array1[i]%2!=0) {
